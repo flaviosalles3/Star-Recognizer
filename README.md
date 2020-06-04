@@ -2,8 +2,10 @@
 Final Project of the discipline SCC0251/5830 Digital Image Processing
 
 ## Students
-Ana Laura Chioca Vieira - 9866531 
-Ana Luiza Teixeira Costa - 11218963 
+Ana Laura Chioca Vieira - 9866531
+
+Ana Luiza Teixeira Costa - 11218963
+
 Flávio Salles - 11218809
 
 ## Abstract
