@@ -12,4 +12,6 @@ Our project's main goal is to recognize constellations in pictures of the sky. T
 ## Image Exemples
 Here are some exemples of the images that are going to be used to develop and test our project:
 
+![](Images/photo1)
+
 
