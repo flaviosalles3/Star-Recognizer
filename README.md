@@ -37,7 +37,7 @@ Here are some exemples of the images that are going to be used to develop and te
 
 
 
-![Ursa Major](Images/Ursa&20Major/the-big-dipper.jpg)
+![Gemini](Images/Gemini/con_GEM_001.png)
 
 
 
