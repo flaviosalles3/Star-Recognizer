@@ -12,6 +12,9 @@ Flávio Salles - 11218809
 Our project's main goal is to recognize constellations in pictures of the sky. The output will be the same image, but the stars that belong to the constellation will be highlighted. We'll use mainly Image Segmentation and Image Enhancement.
 
 ## Step-by-step
+- Image Enhancement using a threshold, making the stars appear white and the rest of the image as black;
+
+- ...
 
 
 ## Images
