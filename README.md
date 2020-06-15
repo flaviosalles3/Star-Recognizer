@@ -11,10 +11,13 @@ Flávio Salles - 11218809
 ## Abstract
 Our project's main goal is to recognize constellations in pictures of the sky. The output will be the same image, but the stars that belong to the constellation will be highlighted. We'll use mainly Image Segmentation and Image Enhancement.
 
+## Step-by-step
+
+
 ## Images
+The sources of the pictures are various websites that focus on explaining about constellations. The input images should all be clear for better processing. We also made sure the pictures didn't have the constellations highlighted, since those are the most common images of constellations. 
 
 ### Folders
-
 We have separated the images in folders according to the constellation they show. Some of the constellations include:
 
 -[Cancer](Images/Cancer) 
@@ -33,7 +36,7 @@ Here are some exemples of the images that are going to be used to develop and te
 
 
 
-![Ursa Minor](Images/Ursa%20Minor/con_UMI_001.png)
+![Ursa Minor](Images/UrsaMinor/con_UMI_001.png)
 
 
 
