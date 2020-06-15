@@ -12,10 +12,10 @@ Flávio Salles - 11218809
 Our project's main goal is to recognize constellations in pictures of the sky. The output will be the same image, but the stars that belong to the constellation will be highlighted. We'll use mainly Image Segmentation and Image Enhancement.
 
 ## Step-by-step
-- Image Enhancement using a threshold, making the stars appear white and the rest of the image as black;
-
-- ...
-
+- Image Segmentation using a threshold, making the stars appear white and the rest of the image as black;
+- Find the two brightest stars in the picture and compute information about all of the stars from them;
+- Match the picture with known templates that we previously computed;
+- Highlight the constellations in the picture that best matches our database. 
 
 ## Images
 The sources of the pictures are various websites that focus on explaining about constellations. The input images should all be clear for better processing. We also made sure the pictures didn't have the constellations highlighted, since those are the most common images of constellations. 
