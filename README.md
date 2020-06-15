@@ -33,11 +33,11 @@ Here are some exemples of the images that are going to be used to develop and te
 
 
 
-![Ursa Minor](Images/Ursa Minor/con_UMI_001.png)
+![Ursa Minor](Images/Ursa\ Minor/con_UMI_001.png)
 
 
 
-![Ursa Major](Images/Ursa Major/the-big-dipper.jpg)
+![Ursa Major](Images/Ursa\ Major/the-big-dipper.jpg)
 
 
 
