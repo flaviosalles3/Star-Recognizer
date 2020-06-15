@@ -23,13 +23,17 @@ The sources of the pictures are various websites that focus on explaining about 
 ### Folders
 We have separated the images in folders according to the constellation they show. Some of the constellations include:
 
--[Cancer](Images/Cancer) 
+- [Cancer](Images/Cancer) 
 
--[Gemini](Images/Gemini) 
+- [Gemini](Images/Gemini) 
 
--[Orion](Images/Orion)
+- [Orion](Images/Orion)
 
--[Scorpius](Images/Scorpius) 
+- [Scorpius](Images/Scorpius) 
+
+- [Ursa Major](Images/UrsaMajor)
+
+- [Ursa Minor](Images/UrsaMinor)
 
 
 ### Examples
