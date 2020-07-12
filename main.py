@@ -138,11 +138,8 @@ def calculaErro(triangle, expected):
     erro = abs(triangle[0] - expected[0])
     erro += abs(triangle[1] - expected[1])
     erro += abs(triangle[2] - expected[2])
+    
     return erro/3
-
-
-if __name__ == __"main"__:
-    main()
 
 def main():
     filename = str(input()).rstrip()
@@ -161,7 +158,7 @@ def main():
     img_line = draw_line(img_line, stars[0][0][0], stars[0][0][1], stars[2][0][0], stars[2][0][1])
     img_line = draw_line(img_line, stars[1][0][0], stars[1][0][1], stars[2][0][0], stars[2][0][1])
 
-    output_img[:,:,2] = img_line
+    colored_image[:,:,2] = img_line
 
     # Find the angles
     triangle = triangle_angles(stars)
@@ -187,6 +184,8 @@ def main():
 
     print("Your Constellation is... " + aux)
 
-    plt.imshow(img_line, cmap="gray")
-
+    plt.imshow(colored_image, cmap="gray")
+    plt.show()
     
+if __name__ == "__main__":
+    main()
