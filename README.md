@@ -2,21 +2,27 @@
 Final Project of the discipline SCC0251/5830 Digital Image Processing
 
 ## Students
-Ana Laura Chioca Vieira - 9866531
+Ana Laura Chioca Vieira - 9866531 -> image enhancement and final comparison between angles and the values in the dictionary
 
-Ana Luiza Teixeira Costa - 11218963
+Ana Luiza Teixeira Costa - 11218963 -> image enhancement, clustering the stars and finding the brightest stars
 
-Flávio Salles - 11218809
+Flávio Salles - 11218809 -> image enhancement and calculating the angles between the brightest stars
+
+The roles of each student were not well defined, since we coded together all the time and all the parts of the algorithm were made as a team. We tried to define the role of each one of us, however they were quite vague.
 
 ## Abstract
-Our project's main goal is to recognize constellations in pictures of the sky. The output will be the same image, but the stars that belong to the constellation will be highlighted. We'll use mainly Image Segmentation and Image Enhancement.
+This project aims to recognize constellations in images of the night sky, using digital image processing thecniques.
 
 ## Step-by-step
-- Image Segmentation using a threshold, making the stars appear white and the rest of the image as black (binary image);
-- Find the two brightest stars in the picture and compute information about all of the stars from them;
-- Use morphology and some additional information previous given to better locate and recognize the constelation;
-- Match the picture with known templates that we previously computed;
-- Highlight the constellations in the picture that best matches our database. 
+
+ - Image Segmentation using a threshold, making the stars appear white and the rest of the image as black (binary image);
+ - Clustering: recognizing clusters of white pixels (those are the stars!);
+ - Recognizing the three brightest stars;
+ - Draw a triangle whose vertices are those three brightest stars;
+ - Caculate the inner angles of the triangle;
+ - Compare those angles to those in a database. 
+    - We used a dictionary for this. The keys are the names of the constellations and the values are the mean values of the triangle.
+
 
 ## Images
 The sources of the pictures are various websites that focus on explaining about constellations. The input images should all be clear for better processing. We also made sure the pictures didn't have the constellations highlighted, since those are the most common images of constellations. 
@@ -38,7 +44,7 @@ We have separated the images in folders according to the constellation they show
 
 
 ### Examples
-Here are some exemples of the images that are going to be used to develop and test our project. Some pictures are easier to process and others are more complex.
+Here are some exemples of the images that were used to develop and test our project. Some pictures are easier to process and others are more complex.
 
 ![Cancer](Images/Cancer/con_CNC_001.png)
 
@@ -49,6 +55,11 @@ Here are some exemples of the images that are going to be used to develop and te
 
 
 ![Gemini](Images/Gemini/con_GEM_001.png)
+
+
+
+### Results
+The results are weird...
 
 
 
