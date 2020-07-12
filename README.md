@@ -27,7 +27,7 @@ This project aims to recognize constellations in images of the night sky, using 
 ## Images
 The sources of the pictures are various websites that focus on explaining about constellations. The input images should all be clear for better processing. We also made sure the pictures didn't have the constellations highlighted, since those are the most common images of constellations. 
 
-### Folders
+#### Folders
 We have separated the images in folders according to the constellation they show. Some of the constellations include:
 
 
@@ -42,7 +42,7 @@ We have separated the images in folders according to the constellation they show
 - [Ursa Minor](Images/UrsaMinor)
 
 
-### Examples
+#### Examples
 Here are some exemples of the images that were used to develop and test our project. Some pictures are easier to process and others are more complex.
 
 
