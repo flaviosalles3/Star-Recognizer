@@ -2,11 +2,11 @@
 Final Project of the discipline SCC0251/5830 Digital Image Processing
 
 ## Students
-Ana Laura Chioca Vieira - 9866531 -> image enhancement and final comparison between input image and the values in the dictionary
+Ana Laura Chioca Vieira - 9866531 -> image enhancement and final comparison between angles and the values in the dictionary
 
 Ana Luiza Teixeira Costa - 11218963 -> image enhancement, clustering the stars and finding the brightest stars
 
-Flávio Salles - 11218809 -> image enhancement and drawing the lines between the brightest stars
+Flávio Salles - 11218809 -> image enhancement and calculating the angles between the brightest stars
 
 The roles of each student were not well defined, since we coded together all the time and all the parts of the algorithm were made as a team. We tried to define the role of each one of us, however they were quite vague.
 
