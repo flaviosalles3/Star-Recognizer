@@ -45,9 +45,6 @@ We have separated the images in folders according to the constellation they show
 ### Examples
 Here are some exemples of the images that were used to develop and test our project. Some pictures are easier to process and others are more complex.
 
-![Cancer](Images/Cancer/con_CNC_001.png)
-
-
 
 ![Ursa Minor](Images/UrsaMinor/con_UMI_001.png)
 
@@ -57,7 +54,7 @@ Here are some exemples of the images that were used to develop and test our proj
 
 
 
-### Results
+## Results
 We were able to identify the angles and brightest stars in images of Orion, Ursa Major, Ursa Minor, Gemini and Scorpio. We colected those angles and calculated the mean, storing them in the dictionary. When using the dictionary to recognize the constellations in different images, the results are almost always correct. If the same images used in the making of the dictionary are used to test it, the results are always correct. One of our biggest difficulties was finding images that are clear enough to use. The output of our program is the name of the constellation detected and the input image in grayscale with it's brightest stars connected by a triangle.
 
 
