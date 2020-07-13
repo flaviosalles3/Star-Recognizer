@@ -17,11 +17,12 @@ This project aims to recognize constellations in images of the night sky, using 
 
  - Image Segmentation using a threshold, making the stars appear white and the rest of the image as black (binary image);
  - Clustering: recognizing clusters of white pixels (those are the stars!);
- - Recognizing the three brightest stars;
+ - Recognizing the three brightest stars using the clusters sorted by size (number of pixels);
  - Draw a triangle whose vertices are those three brightest stars;
  - Caculate the inner angles of the triangle;
  - Compare those angles to those in a database. 
     - We used a dictionary for this. The keys are the names of the constellations and the values are the mean values of the triangle.
+ - Give the constalation name and the input image with it's brightest stars connected by a triangle as the output
 
 
 ## Images
