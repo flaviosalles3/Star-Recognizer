@@ -1,6 +1,9 @@
 # Star Recognizer
 Final Project of the discipline SCC0251/5830 Digital Image Processing
 
+## Video Link
+https://www.youtube.com/watch?v=uE_HNB96DKo
+
 ## Students
 Ana Laura Chioca Vieira - 9866531 -> image enhancement and final comparison between angles and the values in the dictionary
 
